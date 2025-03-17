@@ -1,0 +1,9 @@
+- Ta gọi n = a * b ( với a là ước nguyên tố nhỏ nhất)
+- n - a = a*b - a = a * (b - 1).
+- Ta thấy số 2 là số nguyên tố nhỏ nhất (quá đẹp) nên ta thử xét tính chẵn lẻ: 
++ Nếu n chẵn thì ước nguyên tố nhỏ nhất luôn là 2 :>.
+-> kết quả của đề là n/2
++ Nếu n lẻ ta biểu diễn n = a*b với a là ước nguyên tố nhỏ nhất.
++ Vì n lẻ nên a và b đều lẻ
+-> n - a = a*(b-1) sẽ là số chẵn
+--> Áp dụng trường hợp đầu tiên ta có kết quả là (n - a)/2 + 1.
